@@ -144,6 +144,83 @@ nav a:hover {
   color: #0e7b28; 
 }
 
+/* preescolar*/
+
+.container, .new-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+  margin-top: -18px
+}
+
+.text-section h1 {
+  font-family: "Anton", sans-serif;
+  color: #0e7b28;
+  font-size: 2em;
+}
+
+.text-section p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+.container .sub {
+  font-weight: bold;
+  color: #0e7b28; 
+}
+
+.container, .primaria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.primaria .sub {
+  font-weight: bold;
+  color: #0e7b28; 
+}
+
+.secundaria{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.secundaria .sub {
+  font-weight: bold;
+  color: #0e7b28; 
+}
+.media_vocacional{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.media_vocacional .sub {
+  font-weight: bold;
+  color: #0e7b28; 
+}
 
 @media only screen and (max-width: 768px) {
   header {

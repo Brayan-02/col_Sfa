@@ -117,6 +117,56 @@ nav a:hover {
 }
 
 
+.diferentes {
+  text-align: center;
+  padding: 20px;
+}
+
+.diferentes h2 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0e7b28;
+  margin: 20px 0;
+}
+
+.diferentes p {
+  font-size: 1.2em;
+  margin: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+.diferentes p .sub{
+  font-weight: bold;
+  color: #0e7b28; 
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px #0e7b28;
+  text-align: center;
+  width: 150px;
+}
+
+.feature img {
+  width: 70px;
+  height: 70px;
+}
+
+.feature p {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #000000;
+}
+
 .oferta-educativa {
   display: flex;
   flex-direction: column;
